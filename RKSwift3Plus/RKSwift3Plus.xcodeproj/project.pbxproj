@@ -35,12 +35,12 @@
 		41BB15E61F34A3BE00DF3C62 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB15DD1F34A3BE00DF3C62 /* RoundedView.swift */; };
 		41D18B4B1F348569006D9308 /* RKAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D18B4A1F348569006D9308 /* RKAppDelegate.swift */; };
 		41D18B4D1F348569006D9308 /* RKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D18B4C1F348569006D9308 /* RKBaseViewController.swift */; };
-		41D18B501F348569006D9308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D18B4E1F348569006D9308 /* Main.storyboard */; };
 		41D18B531F348569006D9308 /* RKSwift3Plus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41D18B511F348569006D9308 /* RKSwift3Plus.xcdatamodeld */; };
 		41D18B551F348569006D9308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D18B541F348569006D9308 /* Assets.xcassets */; };
-		41D18B581F348569006D9308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D18B561F348569006D9308 /* LaunchScreen.storyboard */; };
 		41D18B631F34856A006D9308 /* RKSwift3PlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D18B621F34856A006D9308 /* RKSwift3PlusTests.swift */; };
 		41D18B6E1F34856A006D9308 /* RKSwift3PlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D18B6D1F34856A006D9308 /* RKSwift3PlusUITests.swift */; };
+		41E440361F3612140072554F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E440351F3612140072554F /* Main.storyboard */; };
+		41E440381F3612200072554F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E440371F3612200072554F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,10 +90,8 @@
 		41D18B471F348569006D9308 /* RKSwift3Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKSwift3Plus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D18B4A1F348569006D9308 /* RKAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKAppDelegate.swift; sourceTree = "<group>"; };
 		41D18B4C1F348569006D9308 /* RKBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKBaseViewController.swift; sourceTree = "<group>"; };
-		41D18B4F1F348569006D9308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41D18B521F348569006D9308 /* RKSwift3Plus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RKSwift3Plus.xcdatamodel; sourceTree = "<group>"; };
 		41D18B541F348569006D9308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41D18B571F348569006D9308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41D18B591F348569006D9308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41D18B5E1F34856A006D9308 /* RKSwift3PlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKSwift3PlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D18B621F34856A006D9308 /* RKSwift3PlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKSwift3PlusTests.swift; sourceTree = "<group>"; };
@@ -101,6 +99,8 @@
 		41D18B691F34856A006D9308 /* RKSwift3PlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKSwift3PlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D18B6D1F34856A006D9308 /* RKSwift3PlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKSwift3PlusUITests.swift; sourceTree = "<group>"; };
 		41D18B6F1F34856A006D9308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E440351F3612140072554F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		41E440371F3612200072554F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,20 +151,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		41BB15AE1F348D2700DF3C62 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		41BB15AF1F348D2700DF3C62 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		41BB15B01F348D2700DF3C62 /* Utitlities */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,25 +168,13 @@
 			path = Utitlities;
 			sourceTree = "<group>";
 		};
-		41BB15B11F348D2700DF3C62 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				41D18B4E1F348569006D9308 /* Main.storyboard */,
-				41D18B561F348569006D9308 /* LaunchScreen.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		41BB15B21F348D2700DF3C62 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		41D18B3E1F348569006D9308 = {
 			isa = PBXGroup;
 			children = (
+				41E440311F3611EF0072554F /* Model */,
+				41E440321F3611EF0072554F /* Services */,
+				41E440331F3611EF0072554F /* View */,
+				41E440341F3611EF0072554F /* ViewModel */,
 				41D18B491F348569006D9308 /* RKSwift3Plus */,
 				41D18B611F34856A006D9308 /* RKSwift3PlusTests */,
 				41D18B6C1F34856A006D9308 /* RKSwift3PlusUITests */,
@@ -223,10 +197,6 @@
 			children = (
 				41D18B4A1F348569006D9308 /* RKAppDelegate.swift */,
 				41D18B4C1F348569006D9308 /* RKBaseViewController.swift */,
-				41BB15AE1F348D2700DF3C62 /* Model */,
-				41BB15B11F348D2700DF3C62 /* View */,
-				41BB15B21F348D2700DF3C62 /* ViewModel */,
-				41BB15AF1F348D2700DF3C62 /* Services */,
 				41BB15AD1F348D2700DF3C62 /* Extensions */,
 				41BB15B01F348D2700DF3C62 /* Utitlities */,
 				41D18B541F348569006D9308 /* Assets.xcassets */,
@@ -252,6 +222,40 @@
 				41D18B6F1F34856A006D9308 /* Info.plist */,
 			);
 			path = RKSwift3PlusUITests;
+			sourceTree = "<group>";
+		};
+		41E440311F3611EF0072554F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = RKSwift3Plus/Model;
+			sourceTree = "<group>";
+		};
+		41E440321F3611EF0072554F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			path = RKSwift3Plus/Services;
+			sourceTree = "<group>";
+		};
+		41E440331F3611EF0072554F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41E440351F3612140072554F /* Main.storyboard */,
+				41E440371F3612200072554F /* Launch Screen.storyboard */,
+			);
+			name = View;
+			path = RKSwift3Plus/View;
+			sourceTree = "<group>";
+		};
+		41E440341F3611EF0072554F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			path = RKSwift3Plus/ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,9 +365,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41D18B581F348569006D9308 /* LaunchScreen.storyboard in Resources */,
+				41E440381F3612200072554F /* Launch Screen.storyboard in Resources */,
 				41D18B551F348569006D9308 /* Assets.xcassets in Resources */,
-				41D18B501F348569006D9308 /* Main.storyboard in Resources */,
+				41E440361F3612140072554F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,27 +454,6 @@
 			targetProxy = 41D18B6A1F34856A006D9308 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		41D18B4E1F348569006D9308 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41D18B4F1F348569006D9308 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		41D18B561F348569006D9308 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41D18B571F348569006D9308 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		41D18B701F34856A006D9308 /* Debug */ = {
