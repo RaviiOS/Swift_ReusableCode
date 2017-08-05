@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41303A7F1F36395F00332E99 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41303A7E1F36395F00332E99 /* CoreDataManager.swift */; };
 		41BB15B41F348D6100DF3C62 /* KeyChainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB15B31F348D6100DF3C62 /* KeyChainWrapper.swift */; };
 		41BB15C51F34A3A800DF3C62 /* AFImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB15B51F34A3A800DF3C62 /* AFImageExtension.swift */; };
 		41BB15C61F34A3A800DF3C62 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB15B61F34A3A800DF3C62 /* Dictionary.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41303A7E1F36395F00332E99 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		41BB15B31F348D6100DF3C62 /* KeyChainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainWrapper.swift; sourceTree = "<group>"; };
 		41BB15B51F34A3A800DF3C62 /* AFImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFImageExtension.swift; sourceTree = "<group>"; };
 		41BB15B61F34A3A800DF3C62 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
@@ -124,6 +126,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41303A7C1F36394E00332E99 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				41303A7E1F36395F00332E99 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		41303A7D1F36394E00332E99 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		41BB15AD1F348D2700DF3C62 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +209,6 @@
 				41E440311F3611EF0072554F /* Model */,
 				41E440331F3611EF0072554F /* View */,
 				41E440341F3611EF0072554F /* ViewModel */,
-				41E440321F3611EF0072554F /* Services */,
 				41BB15AD1F348D2700DF3C62 /* Extensions */,
 				41BB15B01F348D2700DF3C62 /* Utitlities */,
 				41D18B541F348569006D9308 /* Assets.xcassets */,
@@ -223,15 +239,10 @@
 		41E440311F3611EF0072554F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				41303A7C1F36394E00332E99 /* CoreData */,
+				41303A7D1F36394E00332E99 /* Services */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		41E440321F3611EF0072554F /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		41E440331F3611EF0072554F /* View */ = {
@@ -400,6 +411,7 @@
 				41BB15D21F34A3A800DF3C62 /* UITextField.swift in Sources */,
 				41BB15CD1F34A3A800DF3C62 /* UIDevice.swift in Sources */,
 				41BB15D31F34A3A800DF3C62 /* UIView.swift in Sources */,
+				41303A7F1F36395F00332E99 /* CoreDataManager.swift in Sources */,
 				41BB15D41F34A3A800DF3C62 /* UIViewController.swift in Sources */,
 				41BB15C71F34A3A800DF3C62 /* NSData.swift in Sources */,
 				41BB15E21F34A3BE00DF3C62 /* GCDHelper.swift in Sources */,
