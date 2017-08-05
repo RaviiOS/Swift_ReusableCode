@@ -39,8 +39,6 @@
 		41D18B551F348569006D9308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D18B541F348569006D9308 /* Assets.xcassets */; };
 		41D18B631F34856A006D9308 /* RKSwift3PlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D18B621F34856A006D9308 /* RKSwift3PlusTests.swift */; };
 		41D18B6E1F34856A006D9308 /* RKSwift3PlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D18B6D1F34856A006D9308 /* RKSwift3PlusUITests.swift */; };
-		41E440361F3612140072554F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E440351F3612140072554F /* Main.storyboard */; };
-		41E440381F3612200072554F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E440371F3612200072554F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,8 +97,6 @@
 		41D18B691F34856A006D9308 /* RKSwift3PlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKSwift3PlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D18B6D1F34856A006D9308 /* RKSwift3PlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKSwift3PlusUITests.swift; sourceTree = "<group>"; };
 		41D18B6F1F34856A006D9308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41E440351F3612140072554F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		41E440371F3612200072554F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,8 +239,6 @@
 		41E440331F3611EF0072554F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				41E440351F3612140072554F /* Main.storyboard */,
-				41E440371F3612200072554F /* Launch Screen.storyboard */,
 			);
 			name = View;
 			path = RKSwift3Plus/View;
@@ -365,9 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E440381F3612200072554F /* Launch Screen.storyboard in Resources */,
 				41D18B551F348569006D9308 /* Assets.xcassets in Resources */,
-				41E440361F3612140072554F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
