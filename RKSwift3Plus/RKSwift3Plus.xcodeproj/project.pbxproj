@@ -167,10 +167,6 @@
 		41D18B3E1F348569006D9308 = {
 			isa = PBXGroup;
 			children = (
-				41E440311F3611EF0072554F /* Model */,
-				41E440321F3611EF0072554F /* Services */,
-				41E440331F3611EF0072554F /* View */,
-				41E440341F3611EF0072554F /* ViewModel */,
 				41D18B491F348569006D9308 /* RKSwift3Plus */,
 				41D18B611F34856A006D9308 /* RKSwift3PlusTests */,
 				41D18B6C1F34856A006D9308 /* RKSwift3PlusUITests */,
@@ -193,6 +189,10 @@
 			children = (
 				41D18B4A1F348569006D9308 /* RKAppDelegate.swift */,
 				41D18B4C1F348569006D9308 /* RKBaseViewController.swift */,
+				41E440311F3611EF0072554F /* Model */,
+				41E440331F3611EF0072554F /* View */,
+				41E440341F3611EF0072554F /* ViewModel */,
+				41E440321F3611EF0072554F /* Services */,
 				41BB15AD1F348D2700DF3C62 /* Extensions */,
 				41BB15B01F348D2700DF3C62 /* Utitlities */,
 				41D18B541F348569006D9308 /* Assets.xcassets */,
@@ -224,32 +224,28 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
-			path = RKSwift3Plus/Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		41E440321F3611EF0072554F /* Services */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Services;
-			path = RKSwift3Plus/Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		41E440331F3611EF0072554F /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = View;
-			path = RKSwift3Plus/View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		41E440341F3611EF0072554F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ViewModel;
-			path = RKSwift3Plus/ViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
